@@ -1,0 +1,12 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+
+# Create your views here.
+
+def fun1(request):
+    return HttpResponse('<h1>firsssst app first fun first vieww</h1>')
+
+def fun2(request):
+    return HttpResponse('<h1>2app 2 fun 2view</h1>')
